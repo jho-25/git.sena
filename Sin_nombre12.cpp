@@ -9,7 +9,7 @@ void resta();
 main(){
 	
 	char siga='S',opcion;
-	
+	int a,b,c;
 	do
 	{
 	
@@ -42,7 +42,7 @@ main(){
 	    cout<<"divi ";
 		//divi();
 	}
-	cout<<"desa continuar digite mayuscula (S)  ";
+	cout<<"   desa continuar digite mayuscula (S)  ";
 	cin>>siga;
 	
 	getch();
@@ -53,17 +53,20 @@ main(){
    void suma()
    {
       int a;
-      cout<<"ingrese uno para continuar "<<endl;
+      cout<<"    ingrese uno para continuar "<<endl;
       cin>>a;
       if(a==1)
 	  {
-      	for(a=1;a<=10,a++)
-      	a=a+1;
-      	cout<<a;
-	  }
+      	for(a=1;a<=10;a++){
+		  a=a+1;
+      	  cout<<" "<<a;
+      	  
+		  }
+      	
+	  
 	  
       
-	  }
+	  
       
    
    }
