@@ -6,7 +6,8 @@ void suma();
 void divi();
 void multi();
 void resta();
-main(){
+main()
+{
 	
 	char siga='S',opcion;
 	int a,b,c;
@@ -30,7 +31,7 @@ main(){
 	if(opcion=='R')
 	{
 	    cout<<"resta  ";
-		//resta();
+		resta();
 	}
 	if(opcion=='D')
 	{
@@ -52,7 +53,7 @@ main(){
 }
    void suma()
    {
-      int a;
+    int a;
       cout<<"    ingrese uno para continuar "<<endl;
       cin>>a;
       if(a==1)
@@ -60,23 +61,21 @@ main(){
       	for(a=1;a<=10;a++){
 		  a=a+1;
       	  cout<<" "<<a;
-      	  
+      }
 		  }
-      	
-	  
-	  
-      
-	  
-      
+}
+     void resta()
+ {
+    int b,c,d;
+ 	cout<<" \n INGRESE PRIMER NUMERO\n  ";
+ 	cin>>b;
+ 	cout<<" \n INGRESE SEGUNDO NUMERO\n  ";
+ 	cin>>d;
+ 	c=b-d;
+ 	cout<<" \nSU RESULTADO ES   "<<c;
+ }
    
-   }
-
-
-
-
-
-
-
+   
 
 
 
